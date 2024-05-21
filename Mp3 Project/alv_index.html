@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Player</title>
+    <link rel="stylesheet" href="alv_styles.css">
+	<script defer src="alv_script.js"></script>
+</head>
+<body>
+    <div class="player">
+<div class="player__header">
+<div class="player__img player__img--absolute slider">
+<button class="player__button player__button--absolute--nw playlist">
+<img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+</button>
+<button class="player__button player__button--absolute--center play">
+<img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+<img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+</button>
+<div class="slider__content">
+<img class="img slider__img" src="Images/tttm-bruno.jpg" alt="cover">
+<img class="img slider__img" src="Images/cibh-james.jpg" alt="cover">
+<img class="img slider__img" src="Images/gou-joji.jpg" alt="cover">
+<img class="img slider__img" src="Images/cas-k.jpg" alt="cover">
+<img class="img slider__img" src="Images/ttt-lany.jpg" alt="cover">
+<img class="img slider__img" src="Images/tatl-arthur.jpg" alt="cover">
+<img class="img slider__img" src="Images/tdysg-hale.jpg" alt="cover">
+</div>
+</div>
+<div class="player__controls">
+<button class="player__button back">
+<img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+</button>
+<p class="player__context slider__context">
+<strong class="slider__name"></strong>
+<span class="player__title slider__title"></span>
+</p>
+<button class="player__button next">
+<img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+</button>
+<div class="progres">
+<div class="progres__filled"></div>
+</div>
+</div>
+</div>
+<ul class="player__playlist list">
+<li class="player__song">
+<img class="player__img img" src="Images/tttm-bruno.jpg" alt="cover">
+<p class="player__context">
+<b class="player__song-name">Talking to the moon</b>
+<span class="flex">
+<span class="player__title">Bruno Mars</span>
+<span class="player__song-time"></span>
+</span>
+</p>
+<audio class="audio" src="mp3 songs/Bruno Mars - Talking To The Moon.mp3"></audio>
+</li>
+<li class="player__song">
+<img class="player__img img" src="Images/cibh-james.jpg" alt="cover">
+<p class="player__context">
+<b class="player__song-name">Can I Be Him</b>
+<span class="flex">
+<span class="player__title">James Arthur</span>
+<span class="player__song-time"></span>
+</span>
+</p>
+<audio class="audio" src="mp3 songs/James Arthur - Can I Be Him.mp3"></audio>
+</li>
+<li class="player__song">
+<img class="player__img img" src="Images/gou-joji.jpg" alt="cover">
+<p class="player__context">
+<b class="player__song-name">Glimpse Of Us</b>
+<span class="flex">
+<span class="player__title">Joji</span>
+<span class="player__song-time"></span>
+</span>
+</p>
+<audio class="audio" src="mp3 songs/Joji - Glimpse of Us.mp3"></audio>
+</li>
+<li class="player__song">
+<img class="player__img img" src="Images/cas-k.jpg" alt="cover">
+<p class="player__context">
+<b class="player__song-name">K.</b>
+<span class="flex">
+<span class="player__title">Cigarettes After Sex</span>
+<span class="player__song-time"></span>
+</span>
+</p>
+<audio class="audio" src="mp3 songs/K. - Cigarettes After Sex.mp3"></audio>
+</li>
+<li class="player__song">
+<img class="player__img img" src="Images/ttt-lany.jpg" alt="cover">
+<p class="player__context ">
+<b class="player__song-name">Thru These Tears</b>
+<span class="flex">
+<span class="player__title">LANY</span>
+<span class="player__song-time"></span>
+</span>
+</p>
+<audio class="audio" src="mp3 songs/LANY - Thru These Tears.mp3"></audio>
+</li>
+<li class="player__song">
+<img class="player__img img" src="Images/tatl-arthur.jpg" alt="cover">
+<p class="player__context">
+<b class="player__song-name">Take All The Love</b>
+<span class="flex">
+<span class="player__title">Arthur Nery</span>
+<span class="player__song-time"></span>
+</span>
+</p>
+<audio class="audio" src="mp3 songs/TAKE ALL THE LOVE - Arthur Nery.mp3"></audio>
+</li>
+<li class="player__song">
+<img class="player__img img" src="Images/tdysg-hale.jpg" alt="cover">
+<p class="player__context ">
+<b class="player__song-name">The Day you said goodnight</b>
+<span class="flex">
+<span class="player__title">Hale</span>
+<span class="player__song-time"></span>
+</span>
+</p>
+<audio class="audio" src="mp3 songs/The Day You Said Goodnight - Hale.mp3"></audio>
+</li>
+</ul>
+</div>
+</body>
+</html>
